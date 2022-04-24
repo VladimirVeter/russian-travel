@@ -1,3 +1,8 @@
 .page {
-   background-color: #141313e5;
+   background-color: #2A2C2F;
+}
+
+.header {
+   max-width: 1184px;
+   border: solid red 1px;
 }
