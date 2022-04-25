@@ -11,13 +11,22 @@
 }
 
 .header {
-   max-width: 1184px;
+   width: 928px;
+   height: 52px;
    border: solid red 1px;
    display: flex;
+   justify-content: space-between;
+}
+
+.lang-selector {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 28px;
+   display: flex;
+   
 }
 
 .lead {
-   color: white;
    text-align: center;
    padding-top: 56px;
    border: solid red 1px;
@@ -43,8 +52,7 @@
 }
 
 .lead__image {
-   width: 984px;
-   
+   width: 984px;   
    padding-top: 64px;
 }
 
