@@ -1,8 +1,36 @@
 .page {
    background-color: #2A2C2F;
+   margin: 0 auto;
+   font-family: 'Inter', Arial, sans-serif;
 }
 
 .header {
    max-width: 1184px;
    border: solid red 1px;
+   color: white;
+}
+
+.lead {
+   color: white;
+}
+
+.lead__title {
+   font-size: 96px;
+   font-weight: 900;
+   line-height: 100px;
+   width: 720px;
+   margin: auto;
+}
+
+.lead__subtitle {
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 36px;
+   width: 640px;
+   margin: auto;
+}
+
+.lead__image {
+   width: 984px;
+   margin: auto;
 }
