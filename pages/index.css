@@ -29,16 +29,27 @@
    line-height: 28px;
    display: flex;
    padding-right: 48px;
+   border: solid red 1px;
 }
 
 .lang-selector__RU {
    padding-right: 18px;
+   text-decoration: none;
+   color: white;
+}
+
+.lang-selector__EN {
+   color: white;
+   text-decoration: none;
 }
 
 .lead {
    text-align: center;
    padding-top: 56px;
    border: solid red 1px;
+   display: flex;
+   flex-direction: column;
+   
 }
 
 .lead__title {
@@ -63,6 +74,7 @@
 .lead__image {
    width: 984px;   
    padding-top: 64px;
+   align-self: center;
 }
 
 .lead__caption {
@@ -70,4 +82,5 @@
    font-weight: 400;
    line-height: 14px;
    letter-spacing: 1.5px;
+   align-self:flex-start;
 } 
