@@ -5,25 +5,34 @@
    padding-top: 28px;
    color: white;
    margin: 0 auto;
-   max-width: 1184px;
+   max-width: 1280px;
    min-width: 1025px;
    border: solid red 1px;
 }
 
 .header {
-   width: 928px;
    height: 52px;
    border: solid red 1px;
    display: flex;
    justify-content: space-between;
+   
 }
+
+.header__logo {
+   padding-left: 48px;
+}
+
 
 .lang-selector {
    font-size: 24px;
    font-weight: 400;
    line-height: 28px;
    display: flex;
-   
+   padding-right: 48px;
+}
+
+.lang-selector__RU {
+   padding-right: 18px;
 }
 
 .lead {
