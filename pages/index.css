@@ -99,7 +99,7 @@
 .intro {
    padding-top: 92px;
    margin-left: 148px;
-   width: 690px;
+   max-width: 690px;
    border: solid red 1px;
 }  
 
@@ -130,13 +130,22 @@
 
 .photo-grid {
    display: grid;
+   min-width: 1184px;
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(3, 1fr);
    gap: 16px;
-   border: solid red 1px;
+   margin: auto;
 
 }
 
 .block {
+      width: 100%;
+}
+
+.place-grid {
+   display: grid;
+   min-width: 984px;
    border: solid red 1px;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(4, 1fr);
 }
