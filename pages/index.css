@@ -144,8 +144,8 @@
 
 .place-grid {
    display: grid;
-   min-width: 984px;
+   width: 984px;
    border: solid red 1px;
    grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 1fr);
 }
