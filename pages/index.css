@@ -30,6 +30,7 @@
    display: flex;
    padding-right: 48px;
    border: solid red 1px;
+   align-items: flex-end;
 }
 
 .lang-selector__RU {
@@ -49,7 +50,7 @@
    border: solid red 1px;
    display: flex;
    flex-direction: column;
-   
+   justify-content: center;
 }
 
 .lead__title {
@@ -71,10 +72,18 @@
    border: solid red 1px;
 }
 
-.lead__image {
-   width: 984px;   
+.lead__photo-block {
+   width: 984px;
    padding-top: 64px;
+   display: flex;
+   flex-direction: column;
    align-self: center;
+   border: solid red 1px;
+}
+
+.lead__image {
+   width: 100%;
+   
 }
 
 .lead__caption {
