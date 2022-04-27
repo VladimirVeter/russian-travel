@@ -6,12 +6,12 @@
    color: white;
    margin: 0 auto;
    max-width: 1280px;
-   border: solid red 1px;
+   border: 1px red solid;
 }
 
 .header {
    height: 52px;
-   border: solid red 1px;
+   
    display: flex;
    justify-content: space-between;
    
@@ -30,7 +30,7 @@
    margin: 0;
    padding: 0;
    padding-right: 48px;
-   border: solid red 1px;
+   
    align-items: flex-end;
    list-style: none;
    
@@ -49,7 +49,7 @@
 
 .lead {
    padding-top: 56px;
-   border: solid red 1px;
+   
    display: flex;
    flex-direction: column;
    margin: auto;
@@ -62,7 +62,7 @@
    line-height: 100px;
    max-width: 720px;
    margin: auto;
-   border: solid red 1px;
+   
 }
 
 .lead__subtitle {
@@ -72,7 +72,7 @@
    width: 640px;
    margin: auto;
    padding-top: 32px;
-   border: solid red 1px;
+   
 }
 
 .lead__photo-block {
@@ -81,7 +81,7 @@
    display: flex;
    flex-direction: column;
    align-self: center;
-   border: solid red 1px;
+   
    
 }
 
@@ -104,7 +104,7 @@
    padding-top: 92px;
    margin-left: 148px;
    max-width: 690px;
-   border: solid red 1px;
+   
 }  
 
 .intro__title {
@@ -127,7 +127,8 @@
    font-size: 12px;
    font-weight: 900;
    line-height: 18px;
-   padding: 0;
+   padding: 33px 0 0 0;
+   margin: 0;
    }
 
 .list__span-accent {
@@ -165,7 +166,11 @@
 .place-grid {
    display: grid;
    max-width: 984px;
-   border: solid red 1px;
+   
    grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(3, 1fr);
+   
+}
+
+.place__photo {
+   width: 460px;
 }
