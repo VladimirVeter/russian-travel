@@ -61,7 +61,7 @@
    font-size: 96px;
    font-weight: 900;
    line-height: 100px;
-   width: 720px;
+   max-width: 720px;
    margin: auto;
    border: solid red 1px;
 }
@@ -77,17 +77,18 @@
 }
 
 .lead__photo-block {
-   width: 984px;
+   max-width: 984px;
    padding-top: 64px;
    display: flex;
    flex-direction: column;
    align-self: center;
    border: solid red 1px;
+   
 }
 
 .lead__image {
    width: 100%;
-   
+   object-fit: cover;
 }
 
 .lead__caption {
@@ -139,18 +140,27 @@
 }
 .photo-grid {
    display: grid;
-   min-width: 1184px;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: repeat(3, 1fr);
+   width: 100%;
+   grid-template-columns: repeat(4, auto);
+   grid-template-rows: auto;
    gap: 16px;
-   margin: auto;
    padding-top: 90px;
 
 }
 
 .block {
-      width: 100%;
+   width: 100%;
+   object-fit: cover;
 }
+
+@media screen and (max-width: 1023px){
+   .photo-grid {
+      grid-template-columns: repeat(3, auto);
+            gap: 14px;
+   }
+}
+
+
 
 .place-grid {
    display: grid;
