@@ -163,11 +163,13 @@
 
 
 
-.place-grid {
+.place {
    display: grid;
    max-width: 984px;
    grid-template-columns: repeat(2, 1fr);
-   padding: 92px 0 0 148px;
+   grid-template-rows: repeat(3, auto);
+   margin: 92px 0 0 148px;
+   border: 1px red solid;
 }
 
 .place__title {
@@ -183,5 +185,21 @@
 }
 
 .place__link-name {
-   padding-top: 198px;
+   
+}
+
+.place__url-heading {
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 12px;
+   margin: 0;
+}
+
+.place__link {
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 12px;
+   margin: 0;
+   text-decoration: none;
+   color: white;
 }
