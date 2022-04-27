@@ -166,11 +166,22 @@
 .place-grid {
    display: grid;
    max-width: 984px;
-   
    grid-template-columns: repeat(2, 1fr);
-   
+   padding: 92px 0 0 148px;
+}
+
+.place__title {
+   font-size: 72px;
+   font-weight: 900;
+   line-height: 78px;
+   margin: 0;
 }
 
 .place__photo {
    width: 460px;
+   padding-top: 48px;
+}
+
+.place__link-name {
+   padding-top: 198px;
 }
