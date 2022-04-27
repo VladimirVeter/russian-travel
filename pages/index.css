@@ -28,14 +28,18 @@
    font-weight: 400;
    line-height: 28px;
    display: flex;
+   margin: 0;
+   padding: 0;
    padding-right: 48px;
    border: solid red 1px;
    align-items: flex-end;
+   list-style: none;
+   
 }
 
 .lang-selector__RU {
    padding-right: 18px;
-   text-decoration: none;
+   text-decoration: underline;
    color: white;
 }
 
@@ -107,13 +111,15 @@
    font-size: 54px;
    font-weight: 900;
    line-height: 58px;
-   
+   margin: 0;
 }
 
 .intro__text {
    font-size: 16px;
    font-weight: 400;
    line-height: 26px;
+   margin: 0;
+   padding-top: 40px;
 }
 
 .intro__list {
@@ -122,12 +128,15 @@
    font-weight: 900;
    line-height: 18px;
    padding: 0;
-}
+   }
 
 .list__span-accent {
    font-weight: 400;
 }
 
+.list-hour {
+   margin: 0;
+}
 .photo-grid {
    display: grid;
    min-width: 1184px;
@@ -135,6 +144,7 @@
    grid-template-rows: repeat(3, 1fr);
    gap: 16px;
    margin: auto;
+   padding-top: 90px;
 
 }
 
