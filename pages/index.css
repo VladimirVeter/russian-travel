@@ -6,7 +6,6 @@
    color: white;
    margin: 0 auto;
    max-width: 1280px;
-   min-width: 1025px;
    border: solid red 1px;
 }
 
@@ -140,12 +139,12 @@
 }
 .photo-grid {
    display: grid;
-   width: 100%;
+   width: calc(100%-48px-48px);
    grid-template-columns: repeat(4, auto);
    grid-template-rows: auto;
    gap: 16px;
    padding-top: 90px;
-
+   margin: 0 48px;
 }
 
 .block {
@@ -156,7 +155,8 @@
 @media screen and (max-width: 1023px){
    .photo-grid {
       grid-template-columns: repeat(3, auto);
-            gap: 14px;
+      gap: 14px;
+      margin: 0 48px;
    }
 }
 
@@ -164,7 +164,7 @@
 
 .place-grid {
    display: grid;
-   width: 984px;
+   max-width: 984px;
    border: solid red 1px;
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: repeat(3, 1fr);
