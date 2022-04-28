@@ -161,15 +161,17 @@
    }
 }
 
-
+.places {
+   max-width: 1018px;
+   padding: 0 114px 0 148px;
+}
 
 .place {
    display: grid;
    margin: auto;
    padding-top: 92px;
-   max-width: 1018px;
    max-height: 660px;
-   grid-template-columns: 460px 1fr;
+   grid-template-columns: 460px minmax(100px, 484px);
    grid-template-rows: 152px 1fr;
    grid-template-areas:
    "place__title place__website"
