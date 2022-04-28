@@ -165,41 +165,36 @@
 
 .place {
    display: grid;
-   max-width: 984px;
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(3, auto);
-   margin: 92px 0 0 148px;
-   border: 1px red solid;
+   max-width: 1018px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1 fr;
+   grid-template-areas:
+   "place__title block__text1"
+   "place__image block__text2";
 }
 
 .place__title {
    font-size: 72px;
    font-weight: 900;
-   line-height: 78px;
-   margin: 0;
+   line-height: 76px;
+   grid-area: place__title;
 }
 
-.place__photo {
+.place__image {
    width: 460px;
-   padding-top: 48px;
+   grid-area: place__image;
 }
 
-.place__link-name {
-   
-}
-
-.place__url-heading {
-   font-size: 12px;
+.block__text1 {
+   font-size: 18px;
    font-weight: 400;
-   line-height: 12px;
-   margin: 0;
+   line-height: 29px;
+   grid-area: block__text1;
 }
 
-.place__link {
-   font-size: 12px;
+.block__text2 {
+   font-size: 18px;
    font-weight: 400;
-   line-height: 12px;
-   margin: 0;
-   text-decoration: none;
-   color: white;
+   line-height: 29px;
+   grid-area: block__text2;
 }
