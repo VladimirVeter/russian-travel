@@ -381,9 +381,9 @@
 
 @media screen and (max-width: 767px) {
    .place {
-            padding-top: 50px;
-      display: flex;
-      flex-direction: column;
+      
+      
+      
    }
 }
 
@@ -621,7 +621,7 @@
    .footer {
       width: 186px;
       height: 310px;
-      margin: 0 auto;
+      
    }
 }
 
