@@ -167,7 +167,7 @@
 
 @media screen and (max-width: 1023px) {
    .intro {
-      padding-top: 92px;
+      padding-top: 88px;
       margin-left: 24px;
       max-width: 720px;
    }
@@ -229,6 +229,7 @@
       grid-template-columns: repeat(2, auto);
       gap: 14px;
       margin: 0 24px;
+      padding-top: 88px;
    }
 }
 
@@ -323,14 +324,10 @@
 
 @media screen and (max-width: 1023px) {
 .place__title {
-   margin: 0;
-   max-width: 340px;
+   max-width: 330px;
    font-size: 42px;
-   font-weight: 900;
    line-height: 110%;
-   grid-area: place__title;
-   align-self: end;
-}
+   }
 }
 
 .place__image {
@@ -345,6 +342,12 @@
 @media screen and (max-width: 1279px) {
 .place__image {
    width: 440px;
+   }
+}
+
+@media screen and (max-width: 1023px) {
+   .place__image {
+      width: 340px;
    }
 }
 
@@ -381,6 +384,14 @@
    font-size: 18px;
    font-weight: 400;
    line-height: 29px;
+}
+
+@media screen and (max-width: 1023px) {
+.place__paragraph {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 163%;
+}
 }
 
 .block__text1 {
