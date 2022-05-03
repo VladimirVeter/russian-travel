@@ -336,6 +336,13 @@
    }
 }
 
+@media screen and (max-width: 767px) {
+   .places {
+      max-width: 320px;
+      padding-top: 15px;
+   }
+}
+
 .place {
    display: grid;
    padding-top: 80px;
@@ -381,9 +388,12 @@
 
 @media screen and (max-width: 767px) {
    .place {
-      
-      
-      
+      padding-top: 50px;
+      max-height: 1042px;
+      max-width: 320px;
+      grid-template-columns: 1fr;
+      grid-template-rows:  1fr 1fr 1fr 1fr;
+      gap: 32px;
    }
 }
 
