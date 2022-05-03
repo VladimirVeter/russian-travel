@@ -363,10 +363,6 @@
       max-height: 640px;
       grid-template-columns: 440px minmax(100px, 456px);
       grid-template-rows: max-content 1fr;
-      grid-template-areas:
-         "place__title place__website"
-         "place__image place__paragraph";
-      row-gap: 48px;
       column-gap: 32px;
       }
 }
@@ -378,10 +374,6 @@
       max-height: 581px;
       grid-template-columns: 340px minmax(100px, 352px);
       grid-template-rows: max-content 1fr;
-      grid-template-areas:
-         "place__title place__website"
-         "place__image place__paragraph";
-      row-gap: 48px;
       column-gap: 28px;
    }
 }
