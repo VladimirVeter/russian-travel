@@ -259,7 +259,7 @@
    .places {
       max-width: 720px;
       padding: 0 24px 0 24px;
-      padding-top: 12px;
+      padding-top: 15px;
    }
 
 }
@@ -297,8 +297,8 @@
 @media screen and (max-width: 1023px) {
    .place {
       display: grid;
-      padding-top: 80px;
-      max-heiht: 640px;
+      padding-top: 73px;
+      max-height: 581px;
       grid-template-columns: 340px minmax(100px, 352px);
       grid-template-rows: max-content 1fr;
       grid-template-areas:
@@ -424,7 +424,7 @@
 @media screen and (max-width: 1023px) {
    .cover {
       width: 768px;
-
+   padding-top: 90px;
    }
 }
 
