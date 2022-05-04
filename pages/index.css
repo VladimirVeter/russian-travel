@@ -535,7 +535,7 @@
 @media screen and (max-width: 767px) {
    .cover {
    width: 320px;
-   padding: 90px 0 64px 0;
+   padding: 90px 0 0 0;
 }
 }
 
@@ -612,7 +612,7 @@
    .cover__title {
    font-size: 32px;
    line-height: 109%;
-   margin: 115px auto 32px;
+   margin: 33px auto 16px;
    max-width: 288px;
    }
 }
@@ -676,7 +676,7 @@
 @media screen and (max-width: 767px) {
 .footer__nav {
    flex-direction: column;
-   padding-top: 64px;
+   padding-top: 40px;
    justify-content: space-between;
    padding-left: 16px;
 }
