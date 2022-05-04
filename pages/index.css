@@ -258,11 +258,11 @@
 }
 }
 
-.list__span-accent {
+.intro__span-accent {
    font-weight: 400;
 }
 
-.list-hour {
+.intro__list-hour {
    margin: 0;
 }
 
@@ -305,7 +305,7 @@
 }
 
 
-.block {
+.photo-grid__block {
    width: 100%;
    object-fit:cover;
 }
@@ -507,12 +507,12 @@
    }
 }
 
-.block__text1 {
+.place__text-top {
    margin: 0;
    grid-area: block__text1;
 }
 
-.block__text2 {
+.place__text-bottom {
    margin: 26px 0 0 0;
    grid-area: block__text2;
 }
