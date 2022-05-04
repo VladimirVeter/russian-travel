@@ -494,7 +494,7 @@
 @media screen and (max-width: 767px) {
    .cover {
    width: 320px;
-   padding-top: 66px;
+   padding-top: 90px;
 }
 }
 
@@ -564,17 +564,13 @@
 @media screen and (max-width: 1279px) {
 .cover__title {
    margin: 195px auto 32px;
-   z-index: 1;
-   position: relative;
-}
+   }
 }
 
 @media screen and (max-width: 767px) {
-.cover__title {
-   font-size: 32px;
-   line-height: 109%;
-   width: 288px;
-}
+   .cover__title {
+   margin: 115px auto 32px;
+   }
 }
 
 .cover__subtitle {
