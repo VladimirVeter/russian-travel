@@ -223,10 +223,8 @@
 @media screen and (max-width: 767px) {
 .intro__title {
    font-size: 32px;
-   font-weight: 900;
    line-height: 109%;
-   marin: 0;
-}
+   }
 }
 
 .intro__text {
@@ -292,9 +290,9 @@
 @media screen and (max-width: 767px) {
    .photo-grid {
    grid-template-columns: auto;
-   gap: 12;
+   gap: 12px;
    margin: 0 16px;
-   padding-top: 64px;
+   padding: 64px 0 14px 0;
    }
 }
 
@@ -535,7 +533,7 @@
 @media screen and (max-width: 767px) {
    .cover {
    width: 320px;
-   padding: 90px 0 0 0;
+   padding: 66px 0 0 0;
 }
 }
 
@@ -676,7 +674,7 @@
 @media screen and (max-width: 767px) {
 .footer__nav {
    flex-direction: column;
-   padding-top: 40px;
+   padding-top: 32px;
    justify-content: space-between;
    padding-left: 16px;
 }
