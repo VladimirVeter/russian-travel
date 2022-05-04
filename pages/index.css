@@ -351,7 +351,6 @@
 
 @media screen and (max-width: 1279px) {
    .place {
-   display: grid;
    padding-top: 80px;
    max-height: 640px;
    grid-template-columns: 440px minmax(100px, 456px);
@@ -362,7 +361,6 @@
 
 @media screen and (max-width: 1023px) {
    .place {
-   display: grid;
    padding-top: 73px;
    max-height: 581px;
    grid-template-columns: 340px minmax(100px, 352px);
@@ -377,8 +375,10 @@
    max-width: 320px;
    grid-template-columns: 1fr;
    grid-template-areas: none;
-   gap: 32px;
-   }
+   column-gap: 0;
+   max-height: none;
+   row-gap: 0;
+      }
 }
 
 .place__title {
