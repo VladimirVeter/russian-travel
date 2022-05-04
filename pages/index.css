@@ -331,7 +331,7 @@
 @media screen and (max-width: 767px) {
    .places {
    max-width: 320px;
-   padding-top: 15px;
+   padding-top: 14px;
    }
 }
 
@@ -415,6 +415,7 @@
    grid-area: place__image;
    grid-row-start: 2;
    grid-row-end: 4;
+   z-index: -1;
 }
 
 @media screen and (max-width: 1279px) {
@@ -429,11 +430,16 @@
    }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
    .place__image {
    width: 320px;
+   grid-area: none;
+   grid-row-start: none;
+   grid-row-end: none;
+   padding-top: 145px;
    }
 }
+
 
 .place__website {
    margin: 0;
@@ -445,10 +451,11 @@
 
 @media screen and (max-width: 767px) {
 .place__website {
-   margin: 0;
    grid-area: none;
-   align-self:baseline;
+   align-self:flex-start;
+   padding-top: 67px;
    
+}
 }
 
 .place__url-heading {
@@ -489,7 +496,7 @@
    font-size: 16px;
    font-weight: 400;
    line-height: 163%;
-   padding-top: 50px;
+   padding-top: 497px;
    }
 }
 
