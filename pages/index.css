@@ -71,6 +71,14 @@
    }
 }
 
+@media screen and (max-width: 767px) {
+   .lang-selector {
+      padding-right: 0;
+      font-size: 18px;
+      line-height: 111%;
+   }
+}
+
 .lang-selector__RU {
    padding-right: 18px;
    text-decoration: underline;
@@ -281,7 +289,7 @@
 @media screen and (max-width: 1023px) {
    .photo-grid {
    grid-template-columns: repeat(2, auto);
-   gap: 14px;
+   gap: 16px;
    margin: 0 24px;
    padding-top: 88px;
 }
@@ -606,12 +614,20 @@
    }
 }
 
+@media screen and (max-width: 1023px) {
+.cover__title {
+   line-height: 106%;
+   margin: 115px auto 32px;
+   max-width: 560px;
+   }
+}
+
 @media screen and (max-width: 767px) {
    .cover__title {
-   font-size: 32px;
-   line-height: 109%;
-   margin: 33px auto 16px;
-   max-width: 288px;
+      font-size: 32px;
+      line-height: 109%;
+      margin: 33px auto 16px;
+      max-width: 288px;
    }
 }
 
