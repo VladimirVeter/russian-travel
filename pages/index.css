@@ -331,7 +331,7 @@
 @media screen and (max-width: 767px) {
    .places {
    max-width: 320px;
-   padding-top: 14px;
+   padding: 0;
    }
 }
 
@@ -401,11 +401,12 @@
 
 @media screen and (max-width: 767px) {
    .place__title {
-      max-width: 288px;
-      font-size: 32px;
-      line-height: 109%;
-      grid-area: none;
-      align-self:baseline;
+   max-width: 288px;
+   font-size: 32px;
+   line-height: 109%;
+   grid-area: none;
+   align-self:baseline;
+   padding: 0 16px;
    }
    }
 
@@ -453,7 +454,7 @@
 .place__website {
    grid-area: none;
    align-self:flex-start;
-   padding-top: 67px;
+   padding: 67px 16px 0 16px;
    
 }
 }
@@ -496,7 +497,7 @@
    font-size: 16px;
    font-weight: 400;
    line-height: 163%;
-   padding-top: 497px;
+   padding: 497px 16px 0 16px;
    }
 }
 
