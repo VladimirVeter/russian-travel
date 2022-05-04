@@ -404,6 +404,8 @@
       max-width: 288px;
       font-size: 32px;
       line-height: 109%;
+      grid-area: none;
+      align-self:baseline;
    }
    }
 
@@ -439,6 +441,14 @@
    align-self: end;
    display: flex;
    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+.place__website {
+   margin: 0;
+   grid-area: none;
+   align-self:baseline;
+   
 }
 
 .place__url-heading {
