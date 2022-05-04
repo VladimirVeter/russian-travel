@@ -101,7 +101,7 @@
 .lead__title {
    font-size: 96px;
    font-weight: 900;
-   line-height: 100%;
+   line-height: 104%;
    max-width: 720px;
    margin: auto;
 }
@@ -373,10 +373,11 @@
 @media screen and (max-width: 767px) {
    .place {
    padding-top: 50px;
-   max-height: 1042px;
+   
    max-width: 320px;
    grid-template-columns: 1fr;
    grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-areas: none;
    gap: 32px;
    }
 }
