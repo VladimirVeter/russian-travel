@@ -2,3 +2,7 @@
    color: white;
    text-decoration: none;
 }
+
+.lang-selector__EN:hover {
+   text-decoration: underline;
+}

@@ -1,5 +1,9 @@
 .lang-selector__RU {
    padding-right: 18px;
-   text-decoration: underline;
    color: white;
+   text-decoration: none;
+}
+
+.lang-selector__RU:hover {
+   text-decoration: underline;
 }
