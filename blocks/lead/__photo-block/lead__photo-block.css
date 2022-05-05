@@ -1,0 +1,21 @@
+.lead__photo-block {
+   max-width: 984px;
+   padding-top: 64px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+}
+
+@media screen and (max-width: 1279px) {
+   .lead__photo-block {
+      max-width: 928px;
+      padding-top: 56px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .lead__photo-block {
+      max-width: 320px;
+      padding-top: 40px;
+   }
+}

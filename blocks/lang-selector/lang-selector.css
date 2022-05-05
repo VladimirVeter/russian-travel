@@ -1,0 +1,25 @@
+.lang-selector {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 28px;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   padding-right: 48px;
+   align-items: flex-end;
+   list-style: none;
+}
+
+@media screen and (max-width: 1023px) {
+   .lang-selector {
+      padding-right: 0;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .lang-selector {
+   padding-right: 0;
+   font-size: 18px;
+   line-height: 111%;
+   }
+}
