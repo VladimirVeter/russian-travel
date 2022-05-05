@@ -6,6 +6,11 @@
    color: #FFFFFF;
 }
 
+.footer__menu-link:hover {
+   opacity: 0.8;
+   transition-duration: 0.6s;
+}
+
 @media screen and (max-width: 767px) {
    .footer__menu-link {
       font-size: 24px;
