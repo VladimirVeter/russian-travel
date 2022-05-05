@@ -1,0 +1,11 @@
+.header__lang-selector {
+   padding-right: 18px;
+   color: white;
+   text-decoration: none;
+}
+
+.header__lang-selector:hover {
+   text-decoration: underline;
+   opacity: 0.8;
+   transition-duration: 0.5s;
+}

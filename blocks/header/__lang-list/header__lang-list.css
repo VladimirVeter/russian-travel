@@ -1,4 +1,4 @@
-.lang-selector {
+.header__lang-list {
    font-size: 24px;
    font-weight: 400;
    line-height: 28px;
@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-   .lang-selector {
+   .header__lang-list {
       padding-right: 0;
    }
 }
 
 @media screen and (max-width: 767px) {
-   .lang-selector {
+   .header__lang-list {
       padding-right: 0;
       font-size: 18px;
       line-height: 111%;
