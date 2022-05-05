@@ -5,8 +5,8 @@
    grid-template-columns: 460px minmax(100px, 484px);
    grid-template-rows: max-content 1fr;
    grid-template-areas:
-      "place__title place__website"
-      "place__image place__paragraph";
+   "place__title place__website"
+   "place__image place__paragraph";
    row-gap: 48px;
    column-gap: 40px;
 }
