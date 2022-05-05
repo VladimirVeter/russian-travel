@@ -6,15 +6,15 @@
 
 @media screen and (max-width: 1023px) {
    .header {
-      width: 720px;
-      margin: auto;
+   width: 720px;
+   margin: auto;
    }
 }
 
 @media screen and (max-width: 767px) {
    .header {
-      width: 288px;
-      height: 42px;
-      margin: auto;
+   width: 288px;
+   height: 42px;
+   margin: auto;
    }
 }
