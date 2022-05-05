@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 767px) {
    .place__website {
-   grid-area: none;
-   align-self: flex-start;
-   padding: 67px 16px 0 16px;
+      grid-area: none;
+      align-self: flex-start;
+      padding: 67px 16px 0 16px;
    }
 }

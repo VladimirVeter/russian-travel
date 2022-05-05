@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 767px) {
    .footer__menu-container {
-   margin-left: 0;
+      margin-left: 0;
    }
 }

@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 1023px) {
    .lang-selector {
-   padding-right: 0;
+      padding-right: 0;
    }
 }
 
 @media screen and (max-width: 767px) {
    .lang-selector {
-   padding-right: 0;
-   font-size: 18px;
-   line-height: 111%;
+      padding-right: 0;
+      font-size: 18px;
+      line-height: 111%;
    }
 }

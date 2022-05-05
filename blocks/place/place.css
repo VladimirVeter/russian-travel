@@ -13,32 +13,32 @@
 
 @media screen and (max-width: 1279px) {
    .place {
-   padding-top: 80px;
-   max-height: 640px;
-   grid-template-columns: 440px minmax(100px, 456px);
-   grid-template-rows: max-content 1fr;
-   column-gap: 32px;
+      padding-top: 80px;
+      max-height: 640px;
+      grid-template-columns: 440px minmax(100px, 456px);
+      grid-template-rows: max-content 1fr;
+      column-gap: 32px;
    }
 }
 
 @media screen and (max-width: 1023px) {
    .place {
-   padding-top: 73px;
-   max-height: 581px;
-   grid-template-columns: 340px minmax(100px, 352px);
-   grid-template-rows: max-content 1fr;
-   column-gap: 28px;
+      padding-top: 73px;
+      max-height: 581px;
+      grid-template-columns: 340px minmax(100px, 352px);
+      grid-template-rows: max-content 1fr;
+      column-gap: 28px;
    }
 }
 
 @media screen and (max-width: 767px) {
    .place {
-   padding-top: 50px;
-   max-width: 320px;
-   grid-template-columns: 1fr;
-   grid-template-areas: none;
-   column-gap: 0;
-   max-height: none;
-   row-gap: 0;
+      padding-top: 50px;
+      max-width: 320px;
+      grid-template-columns: 1fr;
+      grid-template-areas: none;
+      column-gap: 0;
+      max-height: none;
+      row-gap: 0;
    }
 }
