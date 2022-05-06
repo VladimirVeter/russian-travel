@@ -64,4 +64,19 @@
       column-gap: 0;
       row-gap: 0;
    }
+   .place:nth-child(1) {
+      padding: 0 0 50px 0;
+   }
+
+   .place:nth-child(2) {
+      padding: 0 0 46px 0;
+   }
+
+   .place:nth-child(3) {
+      padding: 0 0 50px 0;
+   }
+   
+   .place:nth-child(4) {
+      padding: 0 0 50px 0;
+   }
 }
