@@ -2,7 +2,7 @@
    display: grid;
    padding-top: 80px;
    grid-template-columns: 460px minmax(100px, 484px);
-   grid-template-rows: min-content;
+   grid-template-rows: auto auto;
    grid-template-areas:
    "place__title place__website"
    "place__image place__paragraph";
