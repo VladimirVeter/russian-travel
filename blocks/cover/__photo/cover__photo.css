@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 1023px) {
    .cover__photo {
-      width: 768px;
+      max-width: 768px;
       height: 480px;
       margin: 0;
    }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 767px) {
    .cover__photo {
-      width: 320px;
+      max-width: 320px;
       height: 200px;
       margin: 0;
    }
