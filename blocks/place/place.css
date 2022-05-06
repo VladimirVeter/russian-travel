@@ -38,19 +38,15 @@
       grid-template-columns: 340px minmax(100px, 352px);
       column-gap: 28px;
    }
-
    .place:nth-child(1) {
       padding: 0 0 22px 0;
    }
-   
    .place:nth-child(2) {
       padding: 0 0 22px 0;
    }
-   
    .place:nth-child(3) {
       padding: 0 0 22px 0;
    }
-   
    .place:nth-child(4) {
       padding: 0 0 22px 0;
    }
@@ -67,15 +63,12 @@
    .place:nth-child(1) {
       padding: 0 0 50px 0;
    }
-
    .place:nth-child(2) {
       padding: 0 0 46px 0;
    }
-
    .place:nth-child(3) {
       padding: 0 0 50px 0;
    }
-   
    .place:nth-child(4) {
       padding: 0 0 50px 0;
    }
