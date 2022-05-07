@@ -1,6 +1,5 @@
 .footer__nav {
    display: flex;
-   flex-direction: row;
    padding-top: 92px;
    justify-content: space-between;
 }
@@ -9,7 +8,6 @@
    .footer__nav {
       flex-direction: column;
       padding-top: 32px;
-      justify-content: space-between;
       padding-left: 16px;
    }
 }

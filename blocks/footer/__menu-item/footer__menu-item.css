@@ -1,15 +1,15 @@
-.footer__menu-container {
+.footer__menu-item {
    display: flex;
    justify-content: space-between;
    margin-left: 18px;
 }
 
-.footer__menu-container:first-child {
+.footer__menu-item:first-child {
    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
-   .footer__menu-container {
+   .footer__menu-item {
       margin-left: 0;
    }
 }

@@ -1,8 +1,4 @@
 .header__lang-selector_active {
-   text-decoration:underline;
+   text-decoration: underline;
 }
 
-.lang-selector__RU:hover {
-   opacity: 0.8;
-   transition-duration: 0.5s;
-}
