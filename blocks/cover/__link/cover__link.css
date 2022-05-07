@@ -25,14 +25,14 @@
 }
 
 @media screen and (max-width: 767px) {
-   .cover__photo {
+   .cover__link {
       max-width: 320px;
-      min-height: 200px;
+      height: 200px;
       margin: 0;
    }
 }
 
-.cover__photo::before {
+.cover__link::before {
    content: '';
    position: absolute;
    top: 0;
@@ -43,6 +43,6 @@
    opacity: 0.3;
 }
 
-.cover__photo:hover::before {
+.cover__link:hover::before {
    opacity: 0.8;
 }
