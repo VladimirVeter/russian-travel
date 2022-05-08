@@ -10,6 +10,6 @@
    .place__website {
       grid-area: none;
       align-self: flex-start;
-      padding: 67px 16px 0 16px;
+      padding: 32px 16px 0 16px;
    }
 }

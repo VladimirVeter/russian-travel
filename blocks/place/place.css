@@ -32,8 +32,8 @@
 @media screen and (max-width: 767px) {
    .place {
       max-width: 320px;
-      grid-template-columns: 1fr;
-      grid-template-areas: none;
+      display: flex;
+      flex-direction: column;
       column-gap: 0;
       row-gap: 0;
       padding: 0 0 50px 0;
