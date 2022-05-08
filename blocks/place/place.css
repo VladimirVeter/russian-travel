@@ -18,18 +18,7 @@
    .place {
       grid-template-columns: 440px minmax(100px, 456px);
       column-gap: 32px;
-   }
-   .place:nth-child(1) {
-      padding: 0 0 40px 0;
-   }
-   .place:nth-child(2) {
-      padding: 0 0 40px 0;
-   }
-   .place:nth-child(3) {
-      padding: 0 0 70px 0;
-   }
-   .place:last-child {
-      padding: 0;
+      padding: 0 0 73px 0;
    }
 }
 
@@ -37,18 +26,6 @@
    .place {
       grid-template-columns: 340px minmax(100px, 352px);
       column-gap: 28px;
-   }
-   .place:nth-child(1) {
-      padding: 0 0 22px 0;
-   }
-   .place:nth-child(2) {
-      padding: 0 0 22px 0;
-   }
-   .place:nth-child(3) {
-      padding: 0 0 22px 0;
-   }
-   .place:nth-child(4) {
-      padding: 0 0 22px 0;
    }
 }
 
@@ -59,17 +36,6 @@
       grid-template-areas: none;
       column-gap: 0;
       row-gap: 0;
-   }
-   .place:nth-child(1) {
-      padding: 0 0 50px 0;
-   }
-   .place:nth-child(2) {
-      padding: 0 0 46px 0;
-   }
-   .place:nth-child(3) {
-      padding: 0 0 50px 0;
-   }
-   .place:nth-child(4) {
       padding: 0 0 50px 0;
    }
 }
